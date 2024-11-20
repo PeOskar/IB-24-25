@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/polynomial.dir/polynomial.cc.o -o polynomial 

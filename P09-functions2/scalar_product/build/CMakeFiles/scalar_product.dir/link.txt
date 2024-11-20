@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/scalar_product.dir/scalar_product.cc.o -o scalar_product 

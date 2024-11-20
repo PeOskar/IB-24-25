@@ -4,7 +4,7 @@
 * Grado en Ingeniería Informática
 * Informática Básica
 *
-* @author Oskar J. Pérez Hdez
+* @author Oskar J. Pérez Hernández
 * @date Nov 15 24
 * @brief Scalar Product
 *        Practica 9
@@ -17,9 +17,9 @@
 #include <vector>
 
 //Function declarations
-int ScalarProduct(const std::vector<int> vector1, const std::vector<int>
+double ScalarProduct(const std::vector<double> vector1, const std::vector<double>
 vector2);
-std::vector<int> FillVector(const std::string input); 
+std::vector<double> FillVector(const std::string input); 
 
 /*
 * Main function
@@ -31,9 +31,9 @@ int main(int argc, char* argv[]) {
     std::cout << "Wrong usage. Example: ./filename a,b,c d,e,f\n";
     return 1;
   }
-  int result{0};
-  std::vector<int> vector1 = FillVector(argv[1]);
-  std::vector<int> vector2 = FillVector(argv[2]);
+  double result{0};
+  std::vector<double> vector1 = FillVector(argv[1]);
+  std::vector<double> vector2 = FillVector(argv[2]);
   if (vector1.size() != vector2.size()) {
     std::cout << "Vector sizes don't match.\n";
     return 2;
@@ -50,9 +50,9 @@ int main(int argc, char* argv[]) {
 *
 * @brief Computes the scalar product of two given vectors
 */
-int ScalarProduct(const std::vector<int> vector1, const std::vector<int>
+double ScalarProduct(const std::vector<double> vector1, const std::vector<double>
 vector2) {
-  int product{0};
+  double product{0};
   for (int i{0}; i < vector1.size(); ++i) {
     product += vector1[i] * vector2[i];
   }
@@ -65,17 +65,15 @@ vector2) {
 *
 * @brief Given the input, stores in a vector its numbers, ignoring the ','s
 */
-std::vector<int> FillVector(const std::string input) {
-  std::vector<int> vector;
+std::vector<double> FillVector(const std::string input) {
+  std::vector<double> vector;
   int start{0}, end{0};
 
   while ((end = input.find(',', start)) != std::string::npos) {
-    vector.push_back(std::stoi(input.substr(start, end - start)));
+    vector.push_back(std::stod(input.substr(start, end - start)));
     start = end + 1;
   }
-  vector.push_back(std::stoi(input.substr(start)));
+  vector.push_back(std::stod(input.substr(start)));
 
   return vector;
 }
-
-

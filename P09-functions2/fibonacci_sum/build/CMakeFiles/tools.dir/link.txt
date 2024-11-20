@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/usuario/practicas/P09-functions2/fibonacci_sum/lib/libtools.a CMakeFiles/tools.dir/src/tools.cc.o
+/usr/bin/ranlib /home/usuario/practicas/P09-functions2/fibonacci_sum/lib/libtools.a
