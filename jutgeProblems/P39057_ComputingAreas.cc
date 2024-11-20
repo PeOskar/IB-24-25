@@ -1,3 +1,16 @@
+/**
+* Universidad de La Laguna
+* Escuela Superior de Ingeniería y Tecnología
+* Grado en Ingeniería Informática
+* Informática Básica
+*
+* @author Oskar J. Pérez Hernández
+* @date Nov 13 24
+* @brief Computing Areas
+*        P39057
+*        Prints corresponding area of shape
+*/
+
 #include <iomanip>
 #include <iostream>
 #include <cmath>

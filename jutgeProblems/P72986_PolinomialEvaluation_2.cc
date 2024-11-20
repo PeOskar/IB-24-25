@@ -1,3 +1,16 @@
+/**
+* Universidad de La Laguna
+* Escuela Superior de Ingeniería y Tecnología
+* Grado en Ingeniería Informática
+* Informática Básica
+*
+* @author Oskar J. Pérez Hernández
+* @date Nov 13 24
+* @brief Polynomial evaluation 2
+*        P72986
+*        Evaluates polynomial using Horner's rule
+*/
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>

@@ -1,3 +1,16 @@
+/**
+* Universidad de La Laguna
+* Escuela Superior de Ingeniería y Tecnología
+* Grado en Ingeniería Informática
+* Informática Básica
+*
+* @author Oskar J. Pérez Hernández
+* @date Nov 13 24
+* @brief Chess board 1
+*        P42280
+*        Computes number of coins given in a chess board
+*/
+
 #include <iostream>
 
 int main() {
@@ -12,5 +25,6 @@ int main() {
       suma += valores;
     }
   }
-  std::cout << suma << std::endl;;
+  std::cout << suma << std::endl;
+  return 0;
 }

@@ -1,3 +1,16 @@
+/**
+* Universidad de La Laguna
+* Escuela Superior de Ingeniería y Tecnología
+* Grado en Ingeniería Informática
+* Informática Básica
+*
+* @author Oskar J. Pérez Hernández
+* @date Nov 13 24
+* @brief Logarithms
+*        P90133
+*        Approximates logarithm
+*/
+
 #include <iostream>
 
 int main() {

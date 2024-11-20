@@ -1,3 +1,16 @@
+/**
+* Universidad de La Laguna
+* Escuela Superior de Ingeniería y Tecnología
+* Grado en Ingeniería Informática
+* Informática Básica
+*
+* @author Oskar J. Pérez Hernández
+* @date Nov 13 24
+* @brief Top to bottom
+*        P59875
+*        Prints all numbers between the inputs in decreasing order
+*/
+
 #include <iostream>
 
 int main() {

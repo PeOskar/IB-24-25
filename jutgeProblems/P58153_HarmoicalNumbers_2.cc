@@ -1,3 +1,16 @@
+/**
+* Universidad de La Laguna
+* Escuela Superior de Ingeniería y Tecnología
+* Grado en Ingeniería Informática
+* Informática Básica
+*
+* @author Oskar J. Pérez Hernández
+* @date Nov 13 24
+* @brief Harmonical numbers 2
+*        P58153
+*        Prints difference of two harmonical numbers
+*/
+
 #include <iomanip>
 #include <iostream>
 
@@ -10,4 +23,5 @@ int main() {
     }
     std::cout << std::fixed << std::setprecision(10) << H << std::endl;
   }
+  return 0;
 }

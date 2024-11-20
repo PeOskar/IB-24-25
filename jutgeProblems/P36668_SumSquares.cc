@@ -1,3 +1,16 @@
+/**
+* Universidad de La Laguna
+* Escuela Superior de Ingeniería y Tecnología
+* Grado en Ingeniería Informática
+* Informática Básica
+*
+* @author Oskar J. Pérez Hernández
+* @date Nov 20 24
+* @brief Sum of squares
+*        P36668
+*        prints sum of squares until input
+*/
+
 #include <iostream>
 #include <cmath>
 

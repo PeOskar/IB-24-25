@@ -1,3 +1,16 @@
+/**
+* Universidad de La Laguna
+* Escuela Superior de Ingeniería y Tecnología
+* Grado en Ingeniería Informática
+* Informática Básica
+*
+* @author Oskar J. Pérez Hernández
+* @date Nov 13 24
+* @brief Squares 3
+*        P39359
+*        Prints several squares filling them with 0,1,2,3...etc..
+*/
+
 #include <iostream>
 
 int main() {

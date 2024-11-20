@@ -1,3 +1,16 @@
+/**
+* Universidad de La Laguna
+* Escuela Superior de Ingeniería y Tecnología
+* Grado en Ingeniería Informática
+* Informática Básica
+*
+* @author Oskar J. Pérez Hernández
+* @date Nov 13 24
+* @brief Squares 4
+*        P39359
+*        Prints n squares of n size filling them with 0,1,2...etc
+*/
+
 #include <iostream>
 
 int main() {
@@ -19,4 +32,5 @@ int main() {
     cuadrado = 0;
     espacio += 1;
   }
+  return 0;
 }

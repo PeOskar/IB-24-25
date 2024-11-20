@@ -1,3 +1,16 @@
+/**
+* Universidad de La Laguna
+* Escuela Superior de Ingeniería y Tecnología
+* Grado en Ingeniería Informática
+* Informática Básica
+*
+* @author Oskar J. Pérez Hernández
+* @date Nov 13 24
+* @brief Chess board 3
+*        P19991
+*        computes the total number of coins on its two diagonals
+*/
+
 #include <iostream>
 
 int main() {
@@ -23,4 +36,5 @@ int main() {
     diagonal2 -= 1;
   }
   std::cout << suma << std::endl;
+  return 0;
 }
