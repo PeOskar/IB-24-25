@@ -18,13 +18,16 @@
 int main() {
   int numeros{0};
   std::cin >> numeros;
-  std::vector<int> secuencia(numeros - 1);
+  if (numeros == 0) {
+    return 1;
+  }
+  std::vector<int> secuencia(numeros);
   int repeticiones{0};
   for(int i{0}; i < numeros; ++i){
-    std::cin >> secuencia[i];
+    std::cin >> secuencia[i + 1];
   }
-  for (int k{numeros - 2}; k >= 0; --k) {
-    if (secuencia[numeros - 1] == secuencia[k]) {
+  for (int k{numeros - 1}; k > 0; --k) {
+    if (secuencia[numeros] == secuencia[k]) {
       repeticiones += 1;
     }
   }
