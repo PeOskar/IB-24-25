@@ -19,7 +19,7 @@
 *
 * @brief Returns the maximum number out of two integers
 */
-int Maximum(int number1, int number2) { return std::max(number1, number2); }
+int max2(int number1, int number2) { return std::max(number1, number2); }
 
 int main() {
   int numero1, numero2;
